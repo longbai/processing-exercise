@@ -8,10 +8,17 @@ class E5_11 extends PApplet {
     }
 
     void setup() {
-        size(480, 120)
+        size(240, 120)
         smooth()
+        strokeWeight(12)
     }
 
     void draw() {
+        background(204)
+        stroke(255)
+        line(120, 60, mouseX, mouseY)
+        stroke(0)
+        float mx = map(mouseX, 0, width, 60, 180)
+        line(120, 60, mx, mouseY)
     }
 }

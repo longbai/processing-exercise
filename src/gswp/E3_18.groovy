@@ -13,5 +13,17 @@ class E3_18 extends PApplet {
     }
 
     void draw() {
+        strokeJoin(ROUND)
+        strokeWeight(8)
+        beginShape()
+        vertex(180,82)
+        vertex(207,36)
+        vertex(214,63)
+        vertex(407,11)
+        vertex(412,30)
+        strokeJoin(BEVEL)
+        vertex(219,82)
+        vertex(226,109)
+        endShape(CLOSE)
     }
 }

@@ -13,5 +13,10 @@ class E4_8 extends PApplet {
     }
 
     void draw() {
+        strokeWeight(2)
+        strokeCap(SQUARE)
+        20.step(400, 20){
+            line(it, 0, it+it/2, 80)
+        }
     }
 }

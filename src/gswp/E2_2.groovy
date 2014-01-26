@@ -2,9 +2,6 @@ package gswp
 
 import processing.core.PApplet
 
-/**
- * Created by bailong on 2014-1-25.
- */
 class E2_2 extends PApplet{
     static void main(args){
         PApplet.main(["E2_2"] as String[])

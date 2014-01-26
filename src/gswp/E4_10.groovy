@@ -13,5 +13,14 @@ class E4_10 extends PApplet {
     }
 
     void draw() {
+        noStroke()
+//        fill(255, 140)
+        0.step(121, 40){
+            int y = it
+            0.step(481, 40){
+                fill(255, 140)
+                ellipse(it, y, 40,40)
+            }
+        }
     }
 }
