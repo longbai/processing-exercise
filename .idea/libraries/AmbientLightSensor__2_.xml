@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AmbientLightSensor (2)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/AmbientLightSensor.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
