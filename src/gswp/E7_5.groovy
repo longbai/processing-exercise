@@ -14,6 +14,7 @@ class E7_5 extends PApplet {
     }
     float _x = 440
     float r = 30
+    float speed = 0.5
     boolean open = true
     int direction = 1
     void draw() {
@@ -29,7 +30,7 @@ class E7_5 extends PApplet {
             mouth_down = 3.14+0.52
         }
         arc(_x, 60, r, r, mouth_down, mouth_up)
-        _x += direction * 0.2
+        _x += direction * speed
         if(_x + r > width || _x-r < 0){
             direction = -direction
         }
